@@ -18,3 +18,6 @@ console.log(applyResult);
 
 const bindResult = greet.bind(person, 'Hey', 'What is up ?');
 console.log(bindResult());
+
+const bindResult2 = greet.bind(person);
+console.log(bindResult2('Hey', 'What is up ?'));
